@@ -7,7 +7,7 @@ const plans = [
   {
     name: 'Starter',
     description: 'Perfeito para pequenos projetos',
-    price: '29',
+    price: '12',
     period: '/mês',
     featured: false,
     cta: 'Começar',
@@ -22,7 +22,7 @@ const plans = [
   {
     name: 'Professional',
     description: 'Para equipes em crescimento',
-    price: '79',
+    price: '49',
     period: '/mês',
     featured: true,
     cta: 'Comece teste gratuito',

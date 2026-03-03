@@ -47,6 +47,18 @@ const features = [
     description:
       'Mensagens, comentários e notificações organizadas tudo em um único lugar.',
   },
+  {
+    icon: Users,
+    title: 'Gestão de Equipes',
+    description:
+      'Organize sua equipe, defina funções e acompanhe o desempenho com facilidade.',
+  },
+  {
+    icon: BarChart3,
+    title: 'Relatórios Personalizados',
+    description:
+      'Gere relatórios detalhados para acompanhar o progresso e tomar decisões informadas.',  
+  }
 ]
 
 export function Features() {

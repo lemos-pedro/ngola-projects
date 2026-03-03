@@ -34,8 +34,8 @@ export function Contact() {
     {
       icon: Phone,
       label: 'Telefone',
-      value: '+244 222 123 456',
-      link: 'tel:+244222123456',
+      value: '+244 939 900 016',
+      link: 'tel:+244939900016',
     },
     {
       icon: MapPin,

@@ -15,24 +15,30 @@ export function About() {
             </div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
-              Feito por angolanos,
+              Feito por Angolanos,
               <br />
-              <span className="text-primary">para angolanos</span>
+              <span className="text-primary">para o mundo</span>
             </h2>
 
             <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-              Ngola Suite nasceu da necessidade real de empresas angolanas terem uma ferramenta de gestão de projetos que entendesse suas particularidades, falasse português, e oferecesse suporte local.
+              Ngola Suite nasceu da necessidade real de empresas a nivel mundial terem uma ferramenta de gestão de projetos que entendesse suas particularidades, falasse a sua lingua, e oferecesse suporte integral.
             </p>
 
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Desde 2023, ajudamos centenas de empresas a organizar seus projetos, melhorar a colaboração em equipe e entregar resultados de forma mais eficiente.
+              Desde 2025, ajudamos algumas denzenas de empresas a organizar seus projetos, melhorar a colaboração em equipe e entregar resultados de forma mais eficiente.
             </p>
 
             <div className="space-y-4">
               {[
-                'Mais de 500 empresas usando Ngola Suite',
-                '10.000+ projetos geridos com sucesso',
+                'Mais de 100 empresas usando Ngola Suite',
+                '100+ projetos geridos com sucesso',
                 'Suporte em português 24/7',
+                'Suporte em inglês 24/7',
+                'Equipe dedicada de especialistas',
+                'Integração com ferramentas populares',
+                'Segurança e privacidade de dados de nível empresarial',
+                'Atualizações regulares com novos recursos',
+                'Satisfação do cliente de 95%',
               ].map((item) => (
                 <div key={item} className="flex gap-3">
                   <div className="flex h-6 w-6 items-center justify-center rounded-full bg-accent/20 text-accent flex-shrink-0 mt-0.5">
@@ -52,11 +58,7 @@ export function About() {
           {/* Image placeholder */}
           <div className="relative">
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 border border-border flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4">🇦🇴</div>
-                <p className="text-foreground font-bold text-lg">Orgulho de Angola</p>
-                <p className="text-muted-foreground text-sm">Tecnologia com propósito</p>
-              </div>
+             <img src="/logo0.png" alt="" />
             </div>
           </div>
         </div>

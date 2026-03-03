@@ -28,7 +28,6 @@ export function Navbar({ onLoginClick, onSignupClick }: NavbarProps) {
     { href: '/', label: 'Home' },
     { href: '/pricing', label: 'Preços' },
     { href: '/resources', label: 'Recursos' },
-    { href: '#contato', label: 'Contato' },
   ]
 
   return (
@@ -37,8 +36,8 @@ export function Navbar({ onLoginClick, onSignupClick }: NavbarProps) {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-              <span className="font-bold text-white">NS</span>
+            <div className="flex h-8 w-8 items-center justify-center ">
+              <img src="/logo0.png" alt="" />
             </div>
             <span className="hidden font-bold text-foreground sm:inline">Ngola Suite</span>
           </Link>

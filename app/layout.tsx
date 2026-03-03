@@ -11,9 +11,13 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Ngola Suite - Gestão de Projetos Profissional',
   description: 'Plataforma completa de gestão de projetos para equipes e empresas angolanas',
-  generator: 'v0.app',
+  generator: 'zentury',
   icons: {
+    shortcut: '/favicon.ico',
     icon: [
+      {
+        url: '/favicon.ico',
+      },
       {
         url: '/icon-light-32x32.png',
         media: '(prefers-color-scheme: light)',

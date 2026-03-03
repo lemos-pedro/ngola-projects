@@ -8,9 +8,12 @@ import { Check } from 'lucide-react'
 const plans = [
   {
     name: 'Starter',
-    price: '$29',
+    price: '$12',
     description: 'Perfect for small teams getting started',
     features: [
+      'Basic dashboard',
+      'Simple project management',
+      'Task assignment',
       'Up to 5 projects',
       '5 team members',
       'Basic reporting',
@@ -21,9 +24,13 @@ const plans = [
   },
   {
     name: 'Professional',
-    price: '$79',
+    price: '$49',
     description: 'For growing teams and businesses',
     features: [
+      'Advanced dashboard',
+      'Comprehensive project management',
+      'Task dependencies',
+      'File sharing and version control',
       'Unlimited projects',
       '25 team members',
       'Advanced analytics',
@@ -39,6 +46,14 @@ const plans = [
     price: 'Custom',
     description: 'For large organizations with custom needs',
     features: [
+      'Tailored dashboard and features',
+      'Dedicated account manager',
+      'Custom onboarding and training',
+      'Unlimited projects and teams',
+      'Enterprise-grade security',
+      'Custom SLAs',
+      '24/7 priority support',
+      'Dedicated infrastructure options',
       'Unlimited everything',
       'Unlimited team members',
       'Custom analytics',

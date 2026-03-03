@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Mail, Linkedin, Twitter, Github } from 'lucide-react'
+import { Instagram, Linkedin, MessageCircle, Facebook } from 'lucide-react'; // exemplo de icons
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -35,12 +35,13 @@ export function Footer() {
     },
   ]
 
-  const socialLinks = [
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Mail, href: '#', label: 'Email' },
-  ]
+
+const socialLinks = [
+  { icon: Instagram, href: 'https://www.instagram.com/ngolaprojects/', label: 'Instagram' },
+  { icon: Linkedin, href: '#', label: 'LinkedIn' },
+  { icon: MessageCircle, href: 'https://wa.me/+244959499380', label: 'WhatsApp' },
+  { icon: Facebook, href: 'https://www.facebook.com/seuusuario', label: 'Facebook' },
+];
 
   return (
     <footer className="border-t border-border bg-background">
@@ -49,11 +50,8 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-5 mb-8">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-                <span className="font-bold text-white text-xs">NS</span>
-              </div>
-              <span className="font-bold text-foreground">Ngola Suite</span>
+             <div className="flex h-8 w-8 items-center justify-center ">
+              <img src="/logo0.png" alt="" />
             </div>
             <p className="text-sm text-muted-foreground">
               Gestão de projetos profissional para equipes angolanas.
@@ -97,8 +95,8 @@ export function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
-          <p>&copy; {currentYear} Ngola Suite. Todos os direitos reservados.</p>
-          <p>Feito com ❤️ para equipes angolanas</p>
+          <p>&copy; {currentYear} projects. Todos os direitos reservados.</p>
+          <p>Feito pela Zentury co.</p>
         </div>
       </div>
     </footer>
