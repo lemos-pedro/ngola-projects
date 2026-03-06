@@ -15,19 +15,19 @@ const values = [
 
 const team = [
   { 
-    name: "Ariclene de Lemos", 
+    name: "Ariclene Lemos", 
     role: "CEO & Co-Founder", 
     color: "bg-primary",
   },
   { 
-    name: "Teresa Machado", 
-    role: "CTO & Co-Founder", 
+    name: "Adolfo Figueiredo", 
+    role: "CTO ", 
     color: "bg-accent",
     image: null
   },
   { 
-    name: "Ricardo Sousa", 
-    role: "VP Engineering", 
+    name: "Domingos Calandula", 
+    role: "Software Engineer", 
     color: "bg-purple-600",
     image: null
   },
